@@ -44,7 +44,7 @@ class App extends Component {
       <h1>Monster Search</h1>
       <SearchField 
         handleChange={this.changeSearch} 
-        placeHolder='Seaaarch'
+        placeHolder='SEARCH'
       />
       {/*
         <input type="search" placeholder="Search monster" onChange={e => this.onSearchChange(e)} />
